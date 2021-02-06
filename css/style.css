@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 640px;
+  margin: 1rem auto;
+}
+
+/* header */
+.header-top {
+  text-align: center;
+}
+
+.header-top__image {
+  height: 5rem;
+  margin: auto 0;
+}
+
+.header-top--section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.header-top__paragraph:nth-child(2) {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.header-top__paragraph:nth-child(3) {
+  padding: 1rem;
+  border: 0.1rem solid;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.header__navigation {
+  margin: 2rem 0;
+}
+
+.header__underlist {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.header__list {
+  width: 50%;
+  padding: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+  background: #efefef;
+}
+
+.header__anchor {
+  text-decoration: none;
+}
+
+.main-contents {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.main-contents__section--sidebar {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.main-contents__aside {
+  border: 0.1rem solid blueviolet;
+  border-radius: 10px 10px 0 0;
+  margin: 2rem 1rem;
+}
+
+.main-contents__section--main {
+  width: 640px;
+}
+
+.main-contents__paragraph--blog-title {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.main-contents__list {
+  list-style: none;
+  padding: 1rem;
+}
+
+.main-contents__article--blog {
+  padding: 2rem 1rem 3rem 1rem;
+  border: 1px solid;
+  margin: 1rem;
+}
+
+.main-contents__table {
+  margin: 0 1rem;
+}
+
+.main-contents__table-row {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.main-contents__table-header {
+  font-size: 1.1rem;
+  display: inline-block;
+  padding-right: 2rem;
+}
+
+.main-contents__table-data {
+  font-size: 1.1rem;
+  display: inline-block;
+  width: 45rem;
+}
+
+.footer {
+  margin: 1rem 0;
+}
+
+.footer__navigation {
+  display: flex;
+  background: lightgreen;
+  border-radius: 0.4rem;
+}
+
+.footer--menu-item {
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+
+.footer--menu-anchor {
+  text-decoration: none;
+}
+
+.footer__paragraph--place {
+  text-align: right;
+  padding: 1rem 0;
+}
+
+.footer__paragraph--copyright {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+@media (min-width: 767px) {
+  html {
+    font-size: 10px;
+  }
+
+  body {
+    width: 920px;
+    margin: 1rem auto;
+  }
+
+  /* header */
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-top__image {
+    height: 5rem;
+    margin: auto 0;
+  }
+
+  .header-top--section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .header-top__paragraph:nth-child(2) {
+    font-size: 2rem;
+    text-align: right;
+  }
+
+  .header-top__paragraph:nth-child(3) {
+    padding: 1rem;
+    text-align: center;
+    border: 0.1rem solid;
+  }
+
+  .header__navigation {
+    margin: 2rem 0;
+  }
+
+  .header__underlist {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+
+  .header__list {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    background: #efefef;
+  }
+
+  .header__anchor {
+    text-decoration: none;
+  }
+
+  .main-contents {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-contents__section--sidebar {
+    flex: 2;
+    margin-right: 2rem;
+  }
+
+  .main-contents__aside {
+    border: 0.1rem solid blueviolet;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 2rem;
+  }
+
+  .main-contents__section--main {
+    width: 640px;
+  }
+
+  .main-contents__paragraph--blog-title {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .main-contents__list {
+    list-style: none;
+    padding: 1rem;
+  }
+
+  .main-contents__article--blog {
+    padding: 2rem 1rem 3rem 1rem;
+    border: 1px solid;
+  }
+
+  .main-contents__table {
+    margin: 0 1rem;
+  }
+
+  .main-contents__table-row {
+    display: flex;
+    margin: 1rem 0;
+  }
+
+  .main-contents__table-header {
+    font-size: 1.1rem;
+    display: inline-block;
+    padding-right: 2rem;
+  }
+
+  .main-contents__table-data {
+    font-size: 1.1rem;
+    display: inline-block;
+    width: 45rem;
+  }
+
+  .footer {
+    margin: 1rem 0;
+  }
+
+  .footer__navigation {
+    display: flex;
+    background: lightgreen;
+    border-radius: 0.4rem;
+  }
+
+  .footer--menu-item {
+    padding: 0.5rem 0 0.5rem 2rem;
+  }
+
+  .footer--menu-anchor {
+    text-decoration: none;
+  }
+
+  .footer__paragraph--place {
+    text-align: right;
+    padding: 1rem 0;
+  }
+
+  .footer__paragraph--copyright {
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
